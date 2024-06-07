@@ -1,0 +1,21 @@
+h1 {
+	text-align: center;
+	border: 20px solid orange;
+	font: roboto;
+	font-size: 150px;
+	color: orange;
+}
+h3{
+	border: 5px double mediumpurple;
+	width: 45px;
+}
+ul{
+	border: 10px double orange;
+	background-image: url(cat-background.avif);
+	background-size: cover;
+}
+li{
+	font: roboto;
+	font-size: 50px;
+	color: yellow;
+}

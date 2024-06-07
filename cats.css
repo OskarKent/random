@@ -1,0 +1,23 @@
+
+h1{
+	color: skyblue;
+	text-align: center;
+	border-bottom: 2px solid pink;
+}
+h3{
+	border: 5px double mediumpurple;
+	width: 45px;
+}
+.photos{
+	display: flex;
+flex-wrap: wrap;
+}
+img {
+	margin: 50px;
+transition: all 1s;
+height: 550px;
+}
+
+img:hover {
+	transform: scale(1.25);
+}

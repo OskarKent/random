@@ -1,0 +1,11 @@
+h3{
+	border: 5px double mediumpurple;
+	width: 45px;
+}	
+button{
+	background-color: lightskyblue;
+	margin: 3px;
+	cursor: pointer;
+	border-radius: 300px;
+	height: 100px;
+}
