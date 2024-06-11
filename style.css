@@ -1,5 +1,5 @@
 body{
-	background-image: url(random/background);
+	background-image: url(random:background);
 }
 button{
 	background-color: lightskyblue;
