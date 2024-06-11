@@ -2,10 +2,10 @@ body{
 	background-image:url(back.avif);
 }
 h1{
-	color: lightskyblue;
+	color: rgb(111,195,203);
 }
 h6{
-	color: lightskyblue;
+	color: rgb(111,195,203);
 }
 button{
 	background-color: lightskyblue;
