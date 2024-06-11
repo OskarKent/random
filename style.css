@@ -1,4 +1,6 @@
-
+html{
+	background-image:url(random/background.avif);
+}
 button{
 	background-color: lightskyblue;
 	margin: 3px;
