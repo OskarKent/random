@@ -1,6 +1,12 @@
 .container{
 	background-image:url(back.avif);
 }
+h1{
+	color: lightskyblue;
+}
+h6{
+	color: lightskyblue;
+}
 button{
 	background-color: lightskyblue;
 	margin: 3px;
