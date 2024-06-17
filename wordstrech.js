@@ -1,0 +1,1 @@
+alert("try highlighting the moving words so that the highlighting moves to")
