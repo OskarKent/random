@@ -21,8 +21,23 @@ if (sum>=0 && sum<10){
 	alert("I am busy")
 }else if (sum>=90 && sum<100){
 	alert("answering is overated")
-}else if(sum>=100){
+}else if(sum>=100 && sum<110){
+	alert("what is a number?")
+}else if(sum>=110 && sum<120) {
+	alert("the answer is not important")
+}else if(sum>=130 && sum<140) {
+	alert("it is not impossible which means that you can do it instead")
+}else if(sum>=140 && sum<150) {
+	alert("who told you those are numbers?")
+}else if(sum>=150 && sum<160) {
+	alert("I have the answer but I will not tell you")
+}else if(sum>=160 && sum<170) {
+	alert("the answer is invisible")
+}else if(sum>=180 && sum<190) {
+	alert("I am a cow not a calculator")
+}else if(sum>=190) {
 	alert("the numbers are to big")
 }else{
-	alert("those are not numbers")
-};
+	alert("those are not numbers so they are not important")
+}
+
