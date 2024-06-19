@@ -1,0 +1,31 @@
+h3{
+	border: 5px double mediumpurple;
+	width: 60px;
+}
+
+button{
+	background-color: lightskyblue;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	font: roboto;
+	font-size: 30px;
+	margin-left: 70px;
+}
+
+.container{
+display: flex;
+align-content: center;
+}
+
+.refresh{
+width: 285px;
+}
+
+#moo{
+	width: 285px;
+}
