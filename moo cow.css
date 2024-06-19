@@ -23,9 +23,11 @@ align-content: center;
 }
 
 .refresh{
-width: 285px;
+	width: 285px;
+	width: 60px;
 }
 
 #moo{
+	height: 60px;
 	width: 285px;
 }
