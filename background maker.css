@@ -3,7 +3,7 @@ body {
 	color: rgba(0, 0, 0, .5);
 	text-align: center;
 	letter-spacing: 0.5em;
-	background: linear-gradient(to right,red,yellow);
+	background: linear-gradient(to right,#00ff00,#ff0000);
 }
 
 h1{
