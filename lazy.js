@@ -38,6 +38,6 @@ if (sum>=0 && sum<10){
 }else if(sum>=190) {
 	alert("the numbers are to big")
 }else{
-	alert("those are not numbers so they are not important")
+	alert("those are not numbers so I will not multiply them")
 }
 
