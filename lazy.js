@@ -1,5 +1,5 @@
-var num1 = prompt("enter a number to be multiplied");
-var num2 = prompt("enter another number to be multiplied");
+var num1 = prompt("enter the first number to be multiplied");
+var num2 = prompt("enter the number to be multiplied with "+num1);
 var sum = Number(num1)*Number(num2);
 if (sum>=0 && sum<10){
 	alert("try again in a few hours")
@@ -28,7 +28,7 @@ if (sum>=0 && sum<10){
 }else if(sum>=130 && sum<140) {
 	alert("it is not impossible which means that you can do it instead")
 }else if(sum>=140 && sum<150) {
-	alert("who told you those are numbers?")
+	alert("those do not look like numbers to me")
 }else if(sum>=150 && sum<160) {
 	alert("I have the answer but I will not tell you")
 }else if(sum>=160 && sum<170) {
