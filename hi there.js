@@ -1,5 +1,3 @@
-alert("click hi there and then hold enter for an auto clicker")
-
 var hiThere=0;
 var button=document.getElementById("banana");
 var ul = document.querySelector("ul");
