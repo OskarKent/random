@@ -1,4 +1,4 @@
-alert("this may not work on your device");
+alert("this may not work on some devices");
 
 var num = 1;
 var enter = prompt("to confirm please type in CRASH");
