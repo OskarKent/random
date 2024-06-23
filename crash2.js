@@ -10,6 +10,7 @@ var crash=function() {
 	if (enter==="CRASH" && crashing===true) {
 		while (num>0 && crashing===true){
 			console.log(num);
+			num++;
 		}
 	}else{
 		alert("crash failed");
