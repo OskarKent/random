@@ -33,10 +33,20 @@ if (sum>=0 && sum<10){
 	alert("I have the answer but I will not tell you")
 }else if(sum>=160 && sum<170) {
 	alert("the answer is invisible")
-}else if(sum>=180 && sum<190) {
+}else if(sum>=170 && sum<180) {
 	alert("I am a cow not a calculator")
-}else if(sum>=190) {
-	alert("the numbers are to big")
+}else if(sum>=180 && sum<190) {
+	alert("why are you asking me this stuff?")
+}else if(sum>=190 && sum<200) {
+	alert("what if you try using a different website?")
+}else if(sum>=200 && sum<210) {
+	alert("I think that you are a hacker")
+}else if(sum>=210 && sum<220) {
+	alert("I am the best calculator in the world")
+}else if(sum>=220 && sum<230) {
+	alert("I know all the answers in the world")
+}else if(sum>=230) {
+	alert("those numbers are too big")
 }else{
 	alert("those are not numbers so I will not multiply them")
 }
