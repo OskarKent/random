@@ -1,17 +1,43 @@
 body{
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
 	background-image:url(back.avif);
 }
+
 h1{
+	margin-right: 10px;
+	margin-left: 10px;
 	color: rgb(111,195,203);
 }
+
 h6{
+	margin-right: 10px;
+	margin-left: 10px;
 	color: rgb(0,0,255);
 	background-color:rgb(255,255,255);
 }
-button{
+
+.b1{
+	margin:3px;
+	background-color: rgba(255, 200, 0,1);
+	text-align: center;
+	border: 2px solid blue;
+	color: white;
+	text-decoration: blue underline;
+	text-decoration: blue underline wavy;
+}
+
+.b2{
+	margin-right: 10px;
+	margin-left: 10px;
 	background-color: lightskyblue;
 	margin: 3px;
 	cursor: pointer;
 	border-radius: 300px;
 	height: 100px;
+}
+
+.now{
+	color: blue;
 }
