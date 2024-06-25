@@ -32,7 +32,7 @@ const alerter = () => {
 	}else if(num>=70 && num<75){
 		alert("potatos grow in the clouds")
 	}else if(num>=75 && num<80){
-		alert("this is the bes activity in the world")
+		alert("this is the best activity in the world")
 	}else if(num>=80 && num<85){
 		alert("you click me too much")
 	}else if(num>=85 && num<90){
