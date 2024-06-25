@@ -1,0 +1,25 @@
+body{
+	background-image:url(back2.avif);
+}
+
+.b1{
+	margin:3px;
+	background-color: rgba(255, 200, 0,1);
+	text-align: center;
+	border: 2px solid blue;
+	color: white;
+	text-decoration: blue underline;
+	text-decoration: blue underline wavy;
+}
+
+.stuffs{
+	text-align: center;
+}
+
+.now{
+	color: blue;
+}
+
+.pick{
+	background-color: gold;
+}
