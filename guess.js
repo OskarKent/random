@@ -1,4 +1,4 @@
-var code = "stuff";
+var code = "cat";
 var input = prompt("guess the code:");
 var h1 = document.getElementById("h1");
 var guess = function guess() {
