@@ -1,0 +1,47 @@
+h1{
+	color: skyblue;
+	text-align: center;
+}
+
+.a:hover{
+	color: mediumpurple;
+}
+
+.b:hover{
+	font-style: normal;
+	font-size: 500%;
+}
+
+.c:hover{
+	font-style: normal;
+	font-size: 110%;
+}
+
+.d:hover{
+	border: 5px solid blue;
+}
+
+.e:hover{
+	text-decoration: line-through;
+}
+
+.f:hover{
+	text-decoration: overline;
+}
+
+.g:hover{
+	text-decoration: underline;
+}
+
+.h:hover{
+	font-family: sans-serif;
+}
+
+.i:hover{
+	zoom: 200%;
+}
+
+h3{
+	border: 5px double mediumpurple;
+	width: 60px;
+}
