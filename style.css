@@ -3,7 +3,7 @@ body{
 	margin-left: 0px;
 	margin-top: 0px;
 	background-image:url(back.avif);
-	background-size: cover;
+	background-size: 100px;
 }
 
 h1{
@@ -11,7 +11,7 @@ h1{
 	margin-left: 10px;
 	color: rgb(111,195,203);
 	text-align: center;
-	background-color: white;
+	background-color: blue;
 }
 
 h6{
@@ -23,7 +23,7 @@ h6{
 
 .b1{
 	margin:3px;
-	background-color: rgba(255, 200, 0,1);
+	background-color: rgb(255, 255,0);
 	text-align: center;
 	border: 2px solid blue;
 	color: white;
