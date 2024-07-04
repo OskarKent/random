@@ -25,7 +25,7 @@ const up = () =>{
 const megaup = () =>{
 	if (num>=price*5) {
 		cps+=25;
-		num-=price;
+		num-=price*5;
 		price *= 2;
 		btn1.textContent="+$"+cps;
 		btn2.textContent="upgrade button for $"+price;
