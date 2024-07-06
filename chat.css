@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	background-image: url(back4.avif);
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+	background-color: deepskyblue;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	background-color: skyblue;
+}
+
+li {
+	color: white;
+}
+
+.conversation {
+	border: 5px solid blue;
+}
+
+.b1{
+	margin:3px;
+	background-color: rgb(255, 200,0);
+	text-align: center;
+	border: 2px solid blue;
+	color: white;
+	text-decoration: blue underline;
+	text-decoration: blue underline wavy;
+	cursor: pointer;
+}
+
+.now{
+	color: blue;
+}
+
+#input {
+	color: white;
+	background-color: blue;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#btn {
+	background-color: red;
+	height: 50px;
+	width: 100%;
+	border-radius: 200px;
+}
