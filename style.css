@@ -3,7 +3,7 @@ body{
 	margin-left: 0px;
 	margin-top: 0px;
 	background-image:url(back.avif);
-	background-size: 100px;
+	background-size: cover;
 }
 
 h1{
@@ -23,18 +23,19 @@ h6{
 
 .b1{
 	margin:3px;
-	background-color: rgb(255, 200,0);
+	background-color: rgb(255, 155,0);
 	text-align: center;
 	border: 2px solid blue;
 	color: white;
 	text-decoration: blue underline;
 	text-decoration: blue underline wavy;
+	cursor: pointer;
 }
 
 .b2{
 	margin-right: 10px;
 	margin-left: 10px;
-	background-color: rgb(0 234 255);
+	background-color: rgba(0,155,255,0.8);
 	margin: 3px;
 	cursor: pointer;
 	border-radius: 300px;
