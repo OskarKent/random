@@ -76,7 +76,7 @@ const respond = () =>{
 		li.appendChild(document.createTextNode(`chatbot: da cow iz riding in a car`));
     	ul.appendChild(li);
 	}else if (num>=90&&num<95) {
-		li.appendChild(document.createTextNode(`chatbot: is you name realy ${name}?`));
+		li.appendChild(document.createTextNode(`chatbot: is your name realy ${name}?`));
     	ul.appendChild(li);
 	}else if (num>=95&&num<100) {
 		li.appendChild(document.createTextNode(`"chatbot: ERROR is the best response"`));
