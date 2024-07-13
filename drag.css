@@ -1,0 +1,22 @@
+body {
+	margin: 0px;
+}
+
+h3 {
+	border: 5px double mediumpurple;
+	width: 60px;
+}
+
+.drag {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	overflow: hidden;
+	resize: both;
+	border-radius: -200px;
+}
+
+.drag:hover {
+	border-radius: 200px;
+	background-color: blue;
+}
