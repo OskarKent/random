@@ -1,7 +1,7 @@
 const ul = document.getElementById('ul')
 const btn = document.getElementById('btn')
 const input = document.getElementById('input')
-let name = prompt("enter your real name:")
+let name = localStorage.getItem("realusername")
 const initial = document.getElementById("initial")
 
 const send = () =>{

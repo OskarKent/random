@@ -1,17 +1,7 @@
 body{
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-top: 0px;
+	margin: 0px;
 	background-image:url(back.avif);
-	background-size: cover;
-}
-
-h1{
-	margin-right: 10px;
-	margin-left: 10px;
-	color: rgb(111,195,203);
-	text-align: center;
-	background-color: blue;
+	background-size: 33%;
 }
 
 h6{
@@ -33,15 +23,33 @@ h6{
 }
 
 .b2{
-	margin-right: 10px;
-	margin-left: 10px;
-	background-color: rgba(0,155,255,0.8);
-	margin: 3px;
+	color: white;
+	background-color: rgba(0,150,150,0.7);
+	margin-bottom: 3px;
 	cursor: pointer;
-	border-radius: 300px;
-	height: 100px;
+	border-radius: 10px;
+	height: 250px;
+	width: 100%;
 }
 
-.now{
-	color: blue;
+.loginlink{
+	text-align: center;
+	color: aqua;
+	background-color: rgba(0, 0, 255, 0.4);
+	border: 5px solid aquamarine;
 }
+
+.login{
+	color: aqua;
+}
+
+#header {
+	margin-right: 10px;
+	margin-left: 10px;
+	color: lightskyblue;
+	text-align: center;
+	background-color: rgba(0, 0, 255, 0.4);
+}
+
+
+
