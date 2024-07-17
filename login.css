@@ -1,0 +1,34 @@
+h5{
+	text-align: center;
+}
+
+button{
+	background-color: aqua;
+	cursor: pointer;
+	height: 70px;
+}
+
+input {
+	background-color: aqua;
+	height: 20px;
+}
+
+h1{
+	text-align: center;
+}
+
+.middle {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#link{
+	text-align: center;
+	color: white;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
