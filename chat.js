@@ -1,7 +1,12 @@
 var ul = document.getElementById('ul');
 var btn = document.getElementById('btn');
 var input = document.getElementById('input');
+var or = localStorage.getItem("or");
+if (or === "true") {
 var name = localStorage.getItem("realusername");
+} else {
+  var name = "";
+}
 var initial = document.getElementById("initial");
 var send = function send() {
   if (input.value.length > 0) {
