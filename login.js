@@ -9,7 +9,11 @@ const button = document.getElementById('button')
 const check1 = () => {
 	if(username.value === realusername && password.value===realpassword){
 		h1.textContent=`welcome ${realusername}`
+		const or = "true";
+		localStorage.setItem('or',or)
 	} else {
+		const or = "false";
+		localStorage.setItem('or',or)
 		h1.textContent="incorrect username or password"
 	}
 }
