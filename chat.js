@@ -91,7 +91,7 @@ var respond = function respond() {
     li.appendChild(document.createTextNode("chatbot: if you ever get bored of this then you should not be bored because this is not boring"));
     ul.appendChild(li);
   } else if (num === 23) {
-    li.appendChild(document.createTextNode(`chatbot: your name is ${name} but you still will not eat the cake` 
+    li.appendChild(document.createTextNode(`chatbot: your name is ${name} but you still will not eat the cake`))
     ul.appendChild(li);
   } else if (num === 24) {
     li.appendChild(document.createTextNode("chatbot: what?"));
