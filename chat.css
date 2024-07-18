@@ -11,6 +11,7 @@ h1 {
 }
 
 h3 {
+	background-color: white;
 	border: 5px double mediumpurple;
 	width: 60px;
 }

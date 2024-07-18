@@ -30,5 +30,12 @@ h1{
 	cursor: pointer;
 }
 
+#logout {
+	width: 100%;
+	justify-self: center;
+	background-color: red;
+}
+
+
 
 

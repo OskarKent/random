@@ -1,30 +1,32 @@
-const username = document.getElementById("username");
-const password = document.getElementById("password");
-const realusername = localStorage.getItem('realusername');
-const realpassword = localStorage.getItem("realpassword");
-const h1 = document.getElementById('h1');
-const link = document.getElementById('link');
-const button = document.getElementById('button')
-
-const check1 = () => {
-	if(username.value === realusername && password.value===realpassword){
-		h1.textContent=`welcome ${realusername}`
-		const or = "true";
-		localStorage.setItem('or',or)
-	} else {
-		const or = "false";
-		localStorage.setItem('or',or)
-		h1.textContent="incorrect username or password"
-	}
-}
-
-const make = () => {
-	const realusername = prompt("what do you want your username to be?");
-	const realpassword = prompt("what do you want your password to be?")
-	localStorage.setItem('realusername',realusername);
-	localStorage.setItem('realpassword',realpassword);
-}
-
-button.addEventListener("click",check1)
-link.addEventListener("click",make)
-
+var username = document.getElementById("username");
+var password = document.getElementById("password");
+var realusername = localStorage.getItem('realusername');
+var realpassword = localStorage.getItem("realpassword");
+var h1 = document.getElementById('h1');
+var link = document.getElementById('link');
+var button = document.getElementById('button');
+var logout = document.getElementById("logout");
+var check1 = function check1() {
+  if (username.value === realusername && password.value === realpassword) {
+    h1.textContent = "welcome ".concat(realusername);
+    var or = "true";
+    localStorage.setItem('or', or);
+  } else {
+    h1.textContent = "incorrect username or password";
+  }
+};
+var make = function make() {
+  var realusername = prompt("what do you want your username to be?");
+  var realpassword = prompt("what do you want your password to be?");
+  localStorage.setItem('realusername', realusername);
+  localStorage.setItem('realpassword', realpassword);
+  alert("account created");
+};
+var out = function out() {
+  var or = "false";
+  localStorage.setItem('or', or);
+  alert("logged out");
+};
+logout.addEventListener("click", out);
+button.addEventListener("click", check1);
+link.addEventListener("click", make);
