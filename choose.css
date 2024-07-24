@@ -1,0 +1,29 @@
+body{
+	text-align: center;
+	background-color: deepskyblue;
+}
+
+h3{
+	border: 5px double mediumpurple;
+	width: 60px;
+}
+
+input{
+	border-radius: 20px;
+	background-color: gold;
+	margin: 10px;
+}
+
+button{
+	margin: 10px;
+}
+
+#enter{
+	background-color: aqua;
+	border-radius: 20px;
+}
+
+#styled{
+	padding: 20px;
+	border: 5px solid gold;
+}
