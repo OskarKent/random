@@ -24,12 +24,12 @@ h6{
 
 .b2{
 	color: white;
-	background-color: rgba(0,150,150,0.7);
+	background-color: rgba(250,150,0,0.7);
 	margin-bottom: 3px;
 	cursor: pointer;
-	border-radius: 10px;
-	height: 250px;
-	width: 100%;
+	border-radius: 1000px;
+	height: 100px;
+	width: 200px;
 }
 
 .loginlink{
@@ -49,6 +49,12 @@ h6{
 	color: lightskyblue;
 	text-align: center;
 	background-color: rgba(0, 0, 255, 0.4);
+}
+
+.input{
+	display: flex;
+	justify-content: center;
+	margin: 10px;
 }
 
 
