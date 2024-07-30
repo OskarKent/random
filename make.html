@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>random/maker</title>
+	<link rel="stylesheet" type="text/css" href="make.css">
+</head>
+<body>
+<a href="index.html"><h3 class="home">home</h3></a>
+<h1 class="c">this is the random website maker</h1>
+<!-- < and > are replaced by &lt; and &gt; -->
+<div class="inputs">
+<input type="text" placeholder="enter header" class="inputtext" id="code-header"><br>
+<input type="text" placeholder="enter the text under header" class="inputtext" id="smalltext">
+<h3 class="c">enter background color:</h3>
+<input type="color" class="c" value="#ff0000" id="background-color">
+<h3>enter text color:</h3>
+<input type="color" value="#000000" id="text-color">
+<h3>enter button color:</h3>
+<input type="color" value="#ffffff" id="code-button-color"><br>
+<input type="text" id="code-button-text" placeholder="enter button text" class="inputtext"><br>
+<input type="text" id="code-button-link" placeholder="enter button link" class="inputtext"><br>
+<button id="enter">enter</button>
+</div>
+<h2 class="c">result:</h2>
+<div id="result">
+	<h1 id="result-header">bla bla header</h1>
+	<p id="result-smalltext">bla bla other stuff</p>
+	<a href=""id="result-link"><button id="result-button">I am a link to somthing</button></a>
+</div>
+<h2 class="c">this is the code:</h2>
+<div id="copyButton"><button class="copy">copy code</button></div>
+<h3 id="code">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;title&gt;my website&lt;/title&gt;
+&lt;style&gt;body&#123;text-align: center;color: #000000;background-color: #ff0000;&#125;button&#123;background-color: #ffffff;&#125;&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt;bla bla header&lt;/h1&gt;
+&lt;p&gt;bla bla bla other stuff&lt;/p&gt;
+&lt;a href=""&gt;&lt;button id="result-button"&gt;I am a link to somthing&lt;/button&gt;&lt;a&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</h3>
+<h3 class="c">(copy and paste the code)</h3>
+<script type="text/javascript" src="make.js"></script>
+</body>
+</html>

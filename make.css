@@ -1,0 +1,48 @@
+body{
+	background-color: skyblue;
+	margin: 0px;
+}
+
+.inputtext{
+	text-align: center;
+	width: 100%;
+}
+
+.inputs{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.c{
+	text-align: center;
+}
+
+.home{
+	border: 5px double mediumpurple;
+	width: 60px;
+}
+
+.copy{
+	background: linear-gradient(to right, rgb(0, 255, 251), rgb(255, 200, 0));
+}
+
+#result{
+	color: #000000;
+	background-color: #ff0000;
+	text-align: center;
+	border: 5px solid gold;
+}
+
+#result-button{
+	background-color: #ffffff;
+}
+
+#code{
+	border: 5px solid aquamarine;
+	color: red;
+	background-color: white;
+}
+
+
+
