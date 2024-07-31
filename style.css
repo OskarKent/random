@@ -1,7 +1,11 @@
 body{
+	display: flex;
+	flex-direction: column;
 	margin: 0px;
 	background-image:url(back.avif);
 	background-size: 33%;
+	justify-content: center;
+	align-items: center;
 }
 
 h6{
@@ -9,6 +13,11 @@ h6{
 	margin-left: 10px;
 	color: rgb(0,0,255);
 	background-color:rgb(255,255,255);
+}
+
+img {
+	margin: 20px;
+	border: 5px solid aqua;
 }
 
 .b1{
@@ -35,6 +44,7 @@ h6{
 .loginlink{
 	text-align: center;
 	color: aqua;
+	width: 100%;
 	background-color: rgba(0, 0, 255, 0.4);
 	border: 5px solid aquamarine;
 }
