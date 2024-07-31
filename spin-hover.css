@@ -1,0 +1,30 @@
+body {
+	background: linear-gradient(to right, rgb(0, 225, 255), rgb(255, 213, 0));
+}
+
+.home {
+	border: 5px double mediumpurple;
+	width: 60px;
+}
+
+.div {
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	border-radius: 1000px;
+	margin: 20px;
+}
+
+.div:hover {
+	animation: rotate 5s infinite;
+}
+
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes rotate {
+	from{rotate: 2880deg}
+}
