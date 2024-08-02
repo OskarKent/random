@@ -1,0 +1,15 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+h3 {
+	border: 5px double mediumpurple;
+	width: 60px;
+	background-color: white;
+}
+
+canvas {
+	border: 5px dashed blue;
+	background-color: black;
+}
