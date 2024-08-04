@@ -1,0 +1,19 @@
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: orange;
+}
+
+h3 {
+	border: 5px double mediumpurple;
+	width: 60px;
+}
+
+div {
+	width: 150px;
+	height: 150px;
+	background-color: red;
+}
