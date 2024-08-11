@@ -1,0 +1,18 @@
+body {
+  animation: colors 7s infinite;
+}
+
+@keyframes colors {
+  0% {
+    background-color: lawngreen;
+  }
+  33% {
+    background-color: deepskyblue;
+  }
+  66%{
+  	background-color: orangered;
+  }
+  100%{
+  	background-color: lawngreen;
+  }
+}

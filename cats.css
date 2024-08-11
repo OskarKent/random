@@ -10,12 +10,14 @@ h3{
 }
 .photos{
 	display: flex;
-flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 img {
-	margin: 50px;
-transition: all 1s;
-height: 550px;
+	margin: 30px;
+	transition: all 1s;
+	width: 500px;
 }
 
 img:hover {

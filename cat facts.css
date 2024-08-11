@@ -11,11 +11,12 @@ h3{
 }
 ul{
 	border: 10px double orange;
-	background-image: url(cat-background.avif);
+	background-image: url(cat-background.jpg);
 	background-size: cover;
+	background-position: center;
 }
 li{
 	font: roboto;
 	font-size: 50px;
-	color: yellow;
+	color: orange;
 }
