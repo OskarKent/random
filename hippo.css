@@ -1,0 +1,23 @@
+h1 {
+	zoom: 200%;
+	text-align: center;
+	color: skyblue;
+	border: 3px solid aqua;
+}
+
+h3 {
+	border: 5px double mediumpurple;
+	width: 60px;
+}
+
+ul {
+	background-image: url(hippo.jpg);
+	background-size: cover;
+	background-position: center;
+	border: 3px solid skyblue;
+}
+
+li {
+	color: orangered;
+	zoom: 200%;
+}

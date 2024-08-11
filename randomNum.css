@@ -1,0 +1,13 @@
+div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+}

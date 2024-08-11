@@ -1,9 +1,11 @@
-body{
+body {
+  animation: colors 7s infinite;
+}
+
+.most {
 	display: flex;
 	flex-direction: column;
 	margin: 0px;
-	background-image:url(back.avif);
-	background-size: 33%;
 	justify-content: center;
 	align-items: center;
 }
@@ -32,8 +34,8 @@ img {
 }
 
 .b2{
-	color: white;
-	background-color: rgba(250,150,0,0.7);
+	animation: colors 13s infinite;
+	background-color: gold;
 	margin-bottom: 3px;
 	cursor: pointer;
 	border-radius: 1000px;
@@ -73,6 +75,18 @@ img {
 	background-color: rgba(0, 0, 255, 0.4);
 }
 
-
-
+@keyframes colors {
+  0% {
+    background-color: lawngreen;
+  }
+  33% {
+    background-color: deepskyblue;
+  }
+  66%{
+  	background-color: orangered;
+  }
+  100%{
+  	background-color: lawngreen;
+  }
+}
 
