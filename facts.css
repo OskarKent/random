@@ -1,73 +1,46 @@
-img {
+.img {
+	display: flex;
+	align-content: flex-start;
+	width: 100%;
 	border-radius: 20px;
 }
 
-img {
-	justify-self: flex-end;
-	width: 50%;
+.a {
+	display: flex;
+	flex-direction: column;
+	border: 5px solid gold;	
+	border-radius: 22px;
+	width: 40%;
+	height: 25%;
+	margin: 20px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .text {
-	margin: 20px;
-}
-
-.facts {
+	margin-left: 0px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+	font-family: roboto;
+	font-size: 125%;
 }
 
 .fact1 {
-	margin: 20px;
-	background-color: white;
-	border: 3px solid black;
-	border-radius: 25px;
-	width: 46%;
-	height: 40%;
-	display: flex;
-	justify-content: flex-end;
-	text-align: center;
 	color: lawngreen;
 }
 
 .fact2 {
-	display: flex;
-	justify-self: flex-end;
-	margin: 20px;
-	background-color: white;
-	border: 3px solid black;
-	border-radius: 25px;
-	width: 46%;
-	height: 40%;
-	display: flex;
-	justify-content: flex-end;
-	text-align: center;
-	color: orange;
+	color: gold;
 }
 
 .fact3 {
-	display: flex;
-	justify-self: flex-end;
-	margin: 20px;
-	background-color: white;
-	border: 3px solid black;
-	border-radius: 25px;
-	width: 46%;
-	height: 40%;
-	display: flex;
-	justify-content: flex-end;
-	text-align: center;
-	color: deepskyblue;
+	color: skyblue;
 }
 
-
-
-
-
-
-
-
-
-
-
+#facts {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	align-content: center;
+}
