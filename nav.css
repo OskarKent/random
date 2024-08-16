@@ -4,6 +4,8 @@ nav {
 	text-align: center;
 	grid-template-columns: 3fr 3fr 3fr;
 	border-radius: 15px;
+	position: sticky;
+	top: 0;
 }
 
 .now {
